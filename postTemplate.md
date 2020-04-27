@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Sample Post with Grape-Theme style
-subtitle : How markdown is displayed as html
+subtitle : How markdown is displayed as html lol
 tags: [Sample Post, Welcome to the Grape Theme!]
 author: Nayeong Kim
-comments : False
+comments : True
 ---
 
 This is an example of a post which includes code, quotes and backtick.

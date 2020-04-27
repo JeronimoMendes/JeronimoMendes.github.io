@@ -11,14 +11,14 @@ theme_settings :
   profile :
     image : assets/img/foto_perfil.png
     username : Jerónimo Mendes
-    description : Estudante; Explorador do mundo visível
+    description : Estudante
     experience :
       - start : 
         end : 
         experience : 
     skills : 
       - skill : Python
-        value : 85  # Percent value
+        value :   # Percent value
         
   # Icons
   icons :
