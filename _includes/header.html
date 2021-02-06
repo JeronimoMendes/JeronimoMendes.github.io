@@ -1,39 +1,28 @@
-{% assign _url = page.url | split: "/" %}
-{% assign current = _url[-1] | split: "." %}
-<header>
-  <nav>
-    <ul>
-      {% case current[0] %}
-      {% when 'tags'%}
-      <!-- tags -->
-      <a href="{{ site.url }}">
-        <li class="btn-nav">Blog</li>
-      </a>
-      <li class="current">Tags</li>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
-      </a>
-      <!-- portfolio -->
-      {% when 'portfolio'%}
-      <a href="{{ site.url }}">
-        <li class="btn-nav">Blog</li>
-      </a>
-      <a href="{{ site.url }}/tags">
-        <li class="btn-nav">Tags</li>
-      </a>
-      <li class="current">Portfolio</li>
-      {% else %}
-      <!-- others -->
-      <a href="{{ site.url }}">
-        <li class="current btn-nav">Blog</li>
-      </a>
-      <a href="{{ site.url }}/tags">
-        <li class="btn-nav">Tags</li>
-      </a>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
-      </a>
-      {% endcase %}
-    </ul>
-  </nav>
+<header class="site-header px-responsive">
+  <div class="mt2 wrap">
+      <nav class="">
+        {% include navigation.html %}
+      </nav>
+  </div>
 </header>
+
+<div class="menu-btn">
+  <span class="menu-line"></span>
+  <span class="menu-line"></span>
+  <span class="menu-text">Menu</span>
+</div>
+
+
+<script>
+$( ".menu-btn" ).click(function() {
+    if (  $( ".menu-text" ).css( "opacity" ) == "0" ){
+        $(".menu-line:nth-of-type(2)").css("transform","rotate(135deg)");
+        $(".menu-text").css("opacity", "1");
+        $( "#main-menu" ).css("transform", "translate(0%, -116%) matrix(1, 0, 0, 1, 0, 0)");
+    } else {
+        $(".menu-line:nth-of-type(2)").css("transform","rotate(44deg)");
+        $(".menu-text").css("opacity", "0");
+        $( "#main-menu" ).css("transform", "matrix(1, 0, 0, 1, 0, 0)");
+    }
+});
+</script>
