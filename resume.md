@@ -18,6 +18,8 @@ permalink: /resume/
 
 `2020-`
 __Bachelor of Computer Science and Engineering, IST-ULisboa__
+    - Algorithms and Data Structures.
+    - Discrete Math.
 
 `2016-20`
 __Macedo de Cavaleiros High School__ 
@@ -26,11 +28,11 @@ __Macedo de Cavaleiros High School__
 
 ### UoMe
 
-Web app to keep track of debt with friends. Uses django and postgreSQL.
+Web app to keep track of debt with friends. Built using Django.
 
 ### Youtify
 
-Web app to convert youtube playlists into spotify. Uses Flask, youtube's and spotify's API.
+Web app to convert youtube playlists into spotify. Built using flask.
 
 
 __* Please see my Github profile for other projects and pull-request contributions.__
@@ -41,7 +43,7 @@ __* Please see my Github profile for other projects and pull-request contributio
 * **Python**
 * **C**
 * Git
-* Web Applications & APIs
+* Web Applications
 * Scripting
 
 
