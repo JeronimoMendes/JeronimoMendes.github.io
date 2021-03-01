@@ -5,8 +5,8 @@ title:       Jeronimo Mendes
 email:       jeronimo.m.mendes@gmail.com
 author:      Jonathon Belotti
 description: "A striking black-white Jekyll theme."
-baseurl:     "https://jeronimomendes.github.io/"
-url:         "https://jeronimomendes.github.io/"
+baseurl:     ""
+url:         "https://juniortheme.live/"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -40,7 +40,7 @@ show_workshops_section: false
 ## Disqus post comments             ##
 ## (leave blank to disable Disqus)  ##
 ######################################
-disqus_shortname: 'https-jeronimomendes-github-io'
+disqus_shortname: 'juniortheme-live'
 
 ##########################################################################
 ## Facebook Comments plugin                                             ##
