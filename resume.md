@@ -18,6 +18,7 @@ permalink: /resume/
 
 `2020-`
 __Bachelor of Computer Science and Engineering, IST-ULisboa__
+
     - Algorithms and Data Structures.
     - Discrete Math.
 
