@@ -19,9 +19,6 @@ permalink: /resume/
 `2020-`
 __Bachelor of Computer Science and Engineering, IST-ULisboa__
 
-    - Algorithms and Data Structures.
-    - Discrete Math.
-
 `2016-20`
 __Macedo de Cavaleiros High School__ 
 
