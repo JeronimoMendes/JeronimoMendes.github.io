@@ -35,6 +35,11 @@ Web app to convert youtube playlists into spotify. Built using flask.
 
 __* Please see my Github profile for other projects and pull-request contributions.__
 
+## Experience
+
+`2016-`
+### Volunteer at the local Chess club
+
 
 ## Technical
 
