@@ -37,8 +37,7 @@ __* Please see my Github profile for other projects and pull-request contributio
 
 ## Experience
 
-`2016-`
-### Volunteer at the local Chess club
+`2016-` ### Volunteer at the local Chess club
 
 
 ## Technical
@@ -46,8 +45,9 @@ __* Please see my Github profile for other projects and pull-request contributio
 * **Python**
 * **C**
 * Git
-* Web Applications
-* Scripting
+* Django
+* HTML
+* CSS
 
 
 ## Links
