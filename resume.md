@@ -37,7 +37,7 @@ __* Please see my Github profile for other projects and pull-request contributio
 
 ## Experience
 
-`2016-` ### Volunteer at the local Chess club
+`2016-`  __Volunteer at the local Chess club__
 
 
 ## Technical
