@@ -1,30 +1,179 @@
----
-title: Blog
-layout: default
-tags: home
----
-{% assign posts_count = paginator.posts | size %}
+<!DOCTYPE html>
+<html>
 
-<div class="home">
-  {% if posts_count > 0 %}
-    <div class="posts">
-      {% for post in paginator.posts %}
-        <div class="post py3">
-          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-          <p class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </p>
-        </div>
-      {% endfor %}
+    <head>
+        <title>Jerónimo Mendes</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+        <link rel="icon" href="resources/img/favicon.svg" type="image/icon type">
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        
+        <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>    </head>
+        
+<body>
+
+    <div class="nav-load loading" style="transition: cubic-bezier(.77,0,.18,1) 3s;">
+        <div class="navbar">
+
+            <a id="a" href="#header">Jerónimo</a>
+            <a id="a" href="#resume">Resumé</a>
+            <a id="a" href="#projects">Projects</a>
+            <a id="a" href="#contact">Contact</a>
+
+        </div> 
     </div>
 
-    {% include pagination.html %}
-  {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
-  {% endif %}
-</div>
+    <header id="header">
+
+        <div class="header loading">
+            <img src="resources/img/banner-name.svg" class="banner-name">
+        </div>
+
+        <div class="bio loading">Heyo! I'm a ... <span id="bio"></span></div>
+        
+    </header>
+
+    <div class="container white" id="resume">
+
+        <h1>Resumé</h1>
+
+        <div class="resume-block">
+            <h2>Education</h2>
+            <div class="resume-content">
+                <p><span>2020 - present</span>&emsp; Computer Science and Engineering, Instituto Superior Técnico - University of Lisbon</p>
+                <p><span>2016 - 2020</span> &emsp; &emsp; Sciences and Technology, Macedo de Cavaleiros' High School</p>
+            </div>
+        </div>
+
+        <div class="resume-block">
+            <h2>Technologies</h2>
+            <div class="resume-content">
+                <div class="resume-content-column">
+                    <p>Python</p>
+                    <p>C</p>
+                </div>
+                <div class="resume-content-column">
+                    <p>Git</p>
+                    <p>Django</p>
+                </div>
+                <div class="resume-content-column">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-block">
+            <h2>Languages</h2>
+            <div class="resume-content">
+                <div class="resume-content-column">
+                    <p>Portugues <span>(native)</span></p>
+                    <p>English <span>(advanced)</span></p>
+                </div>
+                <div class="resume-content-column">
+                    <p>Spanish <span>(intermediate)</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-block">
+            <h2>Experience</h2>
+                <div style="margin-left: 3rem;">
+                    <span style="padding-bottom: -20px; opacity: 0.4;">2016 - present</span>
+                    <h3> Volunteer at a local Chess club</h3>
+                    <ul>
+                        <li>Helped with the social media</li>
+                        <li>Created a discord channel and bot</li>
+                    </ul>
+                    <span style="padding-bottom: -20px; opacity: 0.4;">2021 - present</span>
+                    <h3> Hackerschool</h3>
+                    <ul>
+                        <li>Currently developing a platform to help high school students study for the national exams.</li>
+                    </ul>
+                </div>
+            <a href="resources/misc/CV-JerónimoMendes.pdf" download="Resume.pdf"><button class="btn" style="margin-top: 6rem;" type="submit">Download it!</button></a>
+
+        </div>
+
+        <div style="padding: 1rem;"></div>
+    </div>
+
+    <div class="container grey" id="projects">
+
+
+        <h1>Projects</h1>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h3><a href="https://uo-me.herokuapp.com/welcome" target="_blank" style="text-decoration: none; color: rgb(37, 37, 37)">UoMe</a></h3>
+                    <img src="resources/img/UoMe.png">
+                    <p>Web app to manage debt with friends</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3><a href="https://github.com/JeronimoMendes/Tomatimer" target="_blank" style="text-decoration: none; color: rgb(37, 37, 37)">Tomatimer</a></h3>
+                    <img src="resources/img/Tomatimer.png">
+                    <p>Pomodoro timer based on the system tray</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3><a href="https://github.com/JeronimoMendes/Youtify" target="_blank" style="text-decoration: none; color: rgb(37, 37, 37)">Youtify</a></h3>
+                    <img src="resources/img/converter.png">
+                    <p>App to convert youtube playlists to Spotify</p>
+                </div>
+            </div>
+
+        </div> 
+
+    </div>
+
+    <div class="container white" id="contact">
+
+        <h1>Contact</h1>
+
+        <div class="socials">
+            <a href="https://twitter.com/JeronimoMMendes" target="_blank"><span class="icon" style="content: url('resources/img/twitter.png');"></span></a>
+            <a href="https://github.com/JeronimoMendes" target="_blank"><span class="icon" style="content: url('resources/img/github.png');"></span></a>
+            <a href="https://www.linkedin.com/in/jer%C3%B3nimo-mendes-03406b1b9/" target="_blank"><span class="icon" style="content: url('resources/img/linkedin.png');"></span></a>
+        </div>
+
+        <div class="form">
+            <form
+            action="https://formspree.io/f/mqkgjglo"
+            method="POST"
+            class="form-contact"
+            >
+                <div class="form-divs">
+                    <label class="label-contact">Your email:</label>
+                    <br>
+                    <input class="input-contact" type="email" name="_replyto">
+                </div>
+
+                <div class="form-divs">
+                    <label class="label-contact">Your message:</label>
+                    <br>
+                    <textarea class="input-contact" name="message"></textarea>
+                </div>
+
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with 🤍 by Jerónimo</p>
+        <img src="resources/img/logo.svg">
+    </footer>
+
+
+    
+<script src="resources/js/index.js"></script>   
+</body>
+
+</html> 
+
