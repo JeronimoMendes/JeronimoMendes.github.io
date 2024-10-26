@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Jerónimo Mendes</title>
-    <link>https://jeronimomendes.pt/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Jerónimo Mendes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://jeronimomendes.pt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://jeronimomendes.pt/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jeronimomendes.pt/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h2 id=&#34;professional-journey&#34;&gt;Professional Journey&lt;/h2&gt;&#xA;&lt;h3 id=&#34;jungle-ai---software-engineer&#34;&gt;Jungle AI - Software Engineer&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;2023 - Present&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;While keeping development of &lt;a href=&#34;https://www.jungle.ai/toucan&#34;&gt;Toucan&lt;/a&gt;, enrolled on a developer role of&#xA;&lt;a href=&#34;https://www.jungle.ai/blog-posts/unlocking-prescriptive-maintenance-with-ai-based-detections&#34;&gt;detections&lt;/a&gt;&#xA;by developing an abstract system of extracting value from multiple sources of data and setting up&#xA;data processing workflows.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implemented scheduled data processing using &lt;strong&gt;Argo Workflows&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Streamlined model deployment with &lt;strong&gt;MLFlow&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Managed deployments in &lt;strong&gt;Kubernetes&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;jungle-ai---software-engineer-part-time&#34;&gt;Jungle AI - Software Engineer Part-Time&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;2022 - 2023&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Responsible for &lt;strong&gt;authentication system and middleware&lt;/strong&gt; used in multiple backends.&#xA;Took role of main maintainer of &lt;a href=&#34;https://www.jungle.ai/toucan&#34;&gt;Toucan&lt;/a&gt;, working alongside&#xA;R&amp;amp;D to deliver power forecasts in a &lt;strong&gt;performant and reliable way.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
